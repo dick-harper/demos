@@ -10,6 +10,9 @@ namespace Console
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine($"Welcome to the Demo.Console.\nCurrent date is {DateTime.Now}.\nPress <any> key to exit");
+
+            System.Console.ReadKey();
         }
     }
 }
