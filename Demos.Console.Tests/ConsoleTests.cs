@@ -6,12 +6,12 @@ using Moq;
 namespace Demos.Console.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ConsoleTests
     {
         [TestMethod]
         public void Can_Get_Program()
         {
-            var mock = new Mock<Program>();
+            //var mock = new Mock<Program>();
 
             var program = new Program();
             
