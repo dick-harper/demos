@@ -16,7 +16,7 @@ namespace Demos.Console.Tests
 
             var program = new Program();
             
-            Assert.IsNotNull(program);
+            Assert.IsNull(program);
         }
     }
 }
