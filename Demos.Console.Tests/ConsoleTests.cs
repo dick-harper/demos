@@ -11,11 +11,11 @@ namespace Demos.Console.Tests
         [TestMethod]
         public void Can_Get_Program()
         {
-            //var mock = new Mock<Program>();
+            var mock = new Mock<Program>();
 
             var program = new Program();
             
-            Assert.IsNotNull(program);
+            Assert.IsNull(program);
         }
     }
 }
