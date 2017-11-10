@@ -11,11 +11,12 @@ namespace Demos.Console.Tests
         [TestMethod]
         public void Can_Get_Program()
         {
+            // Testig that the Nuget lib (MOQ) is atually referenced.
             var mock = new Mock<Program>();
 
             var program = new Program();
             
-            Assert.IsNull(program);
+            Assert.IsNotNull(program);
         }
     }
 }
